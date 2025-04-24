@@ -1,0 +1,11 @@
+Starting test at: 2025-04-24T07:48:15.316Z
+Target: https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/
+Starting dashboard tests...
+Test completed at: 2025-04-24T07:48:39.982Z
+Tests failed: Node is either not clickable or not an Element
+Scenario "Tab Navigation" completed successfully
+Tests completed. Results:
+Total scenarios: 1
+Tests completed. Results:
+Total scenarios: 1
+Scenario "Tab Navigation" completed successfully

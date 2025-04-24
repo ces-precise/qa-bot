@@ -1,0 +1,10 @@
+Starting test at: 2025-04-24T08:47:29.121Z
+Target: https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/
+Found report generator at: C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\utils\report-generator.js
+Importing report generator from: C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\utils\report-generator.js
+Loading test runner from: C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\examples\shiny-test-runner.js
+Starting dashboard tests...
+Test completed at: 2025-04-24T08:47:39.298Z
+Tests failed: Protocol error (Page.captureScreenshot): Cannot take screenshot with 0 width.
+Total scenarios: 0
+Closing log stream...
