@@ -1,0 +1,14 @@
+Starting test at: 2025-04-25T06:28:55.550Z
+Target: https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/
+Found report generator at: C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\utils\report-generator.js
+Importing report generator from: C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\utils\report-generator.js
+Available functions in report-generator module:
+WARNING: processTestLog is not a function in the imported module
+Attempting to use local implementation...
+Loading test runner from: C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\examples\shiny-test-runner.js
+Starting dashboard tests...
+Test completed at: 2025-04-25T06:29:23.773Z
+Tests failed: Node is either not clickable or not an Element
+Total scenarios: 1
+Scenario "Tab Navigation" completed successfully
+Closing log stream...

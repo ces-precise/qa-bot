@@ -8,28 +8,32 @@ const path = require('path');
  * @param {string} configFile - Path to config file
  */
 async function runShinyTests(configFile) {
-    console.log(`Starting Shiny dashboard tests...`);
-    
-    // Create helpers for waiting instead of waitForTimeout
-    const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-    
-    // Default config or load from file
-    let config = {
-      baseUrl: 'https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/',
-      screenshotsDir: './logs/screenshots'
-    };
-    
-    // Try to load config if provided
-    if (configFile) {
-      try {
-        const configModule = require(configFile);
-        config = { ...config, ...configModule };
-      } catch (error) {
-        console.warn(`Warning: Could not load config file ${configFile}. Using defaults.`);
-      }
+  console.log(`Starting Shiny dashboard tests...`);
+  
+  // Create helpers for waiting instead of waitForTimeout
+  const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+  
+  // Default config
+  let config = {
+    baseUrl: 'https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/',
+    screenshotsDir: './logs/screenshots'
+  };
+  
+  // Handle config as either direct object or a file path
+  if (typeof configFile === 'string') {
+    // It's a file path
+    try {
+      const configModule = require(configFile);
+      config = { ...config, ...configModule };
+    } catch (error) {
+      console.warn(`Warning: Could not load config file ${configFile}. Using defaults.`);
     }
-    
-    console.log(`Target URL: ${config.baseUrl}`);
+  } else if (typeof configFile === 'object') {
+    // It's already an object, use it directly
+    config = { ...config, ...configFile };
+  }
+  
+  console.log(`Target URL: ${config.baseUrl}`);
     
     // Make sure screenshots directory exists
     const screenshotsDir = config.screenshotsDir || './logs/screenshots';

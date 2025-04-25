@@ -1,0 +1,15 @@
+Starting test at: 2025-04-25T12:18:12.384Z
+Target: https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/
+Starting dashboard tests...
+Error running tests: Cannot access 'config' before initialization
+ReferenceError: Cannot access 'config' before initialization
+    at Object.runShinyTests (C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\runners\shiny-test-runner.js:30:12)
+    at runShinyDashboardTest (C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\reporting\report-integration.js:391:42)
+    at main (C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\reporting\report-integration.js:541:3)
+    at Object.<anonymous> (C:\Users\cesai_b8mratk\OneDrive\Documents\SheetSolved\Projects\precise_digital\automated-qa-demo\src\reporting\report-integration.js:583:3)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)

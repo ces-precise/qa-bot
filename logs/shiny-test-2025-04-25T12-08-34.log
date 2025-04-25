@@ -1,0 +1,13 @@
+Starting test at: 2025-04-25T12:08:34.158Z
+Target: https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/
+Error loading test runner: Cannot find module './src/runners/shiny-test-runner.js'
+Using mock test runner instead
+Starting dashboard tests...
+Test completed at: 2025-04-25T12:08:37.182Z
+All tests completed successfully
+Total scenarios: 4
+Scenario "Navigate Dashboard Tabs" completed successfully
+Scenario "Test Dashboard Input Controls" completed successfully
+Scenario "Test Dashboard Plot Interactions" completed successfully
+Scenario "Test Dashboard Responsiveness" completed successfully
+Closing log stream...

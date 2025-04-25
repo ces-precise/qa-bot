@@ -1,0 +1,229 @@
+{
+  "timestamp": "2025-04-25T11:57:46.913Z",
+  "startTime": "2025-04-25T11:57:43.877Z",
+  "endTime": "2025-04-25T11:57:46.890Z",
+  "duration": 3013,
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "Navigate Dashboard Tabs",
+      "status": "passed",
+      "startTime": "2025-04-25T11:57:46.914Z",
+      "endTime": "2025-04-25T11:57:46.914Z",
+      "duration": 5000,
+      "steps": [],
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "name": "Test Dashboard Input Controls",
+      "status": "passed",
+      "startTime": "2025-04-25T11:57:46.914Z",
+      "endTime": "2025-04-25T11:57:46.914Z",
+      "duration": 5000,
+      "steps": [],
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "name": "Test Dashboard Plot Interactions",
+      "status": "passed",
+      "startTime": "2025-04-25T11:57:46.914Z",
+      "endTime": "2025-04-25T11:57:46.914Z",
+      "duration": 5000,
+      "steps": [],
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Test Dashboard Responsiveness",
+      "status": "passed",
+      "startTime": "2025-04-25T11:57:46.914Z",
+      "endTime": "2025-04-25T11:57:46.914Z",
+      "duration": 5000,
+      "steps": [],
+      "warnings": []
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "warning": 0,
+    "successRate": 100
+  },
+  "metrics": {
+    "loadTime": 3000,
+    "interactionTime": 0,
+    "averageResponseTime": 500,
+    "errors": []
+  },
+  "environment": {
+    "url": "https://sheetsolved.shinyapps.io/preciseSandboxAnalytics/",
+    "userAgent": "Automated Test Runner",
+    "viewport": "1920×1080",
+    "timestamp": "2025-04-25T11:57:46.913Z"
+  },
+  "screenshots": [
+    {
+      "name": "controls-initial.png",
+      "path": "../screenshots/controls-initial.png",
+      "size": 27121,
+      "time": "2025-04-25T11:41:21.880Z",
+      "scenarioName": "Unknown",
+      "type": "General"
+    },
+    {
+      "name": "tab-detail-view.png",
+      "path": "../screenshots/tab-detail-view.png",
+      "size": 27121,
+      "time": "2025-04-25T11:41:21.743Z",
+      "scenarioName": "Tab Navigation",
+      "type": "detail view"
+    },
+    {
+      "name": "tab-portfolio.png",
+      "path": "../screenshots/tab-portfolio.png",
+      "size": 79521,
+      "time": "2025-04-25T11:41:18.628Z",
+      "scenarioName": "Tab Navigation",
+      "type": "portfolio"
+    },
+    {
+      "name": "tab-artists.png",
+      "path": "../screenshots/tab-artists.png",
+      "size": 66048,
+      "time": "2025-04-25T11:41:15.481Z",
+      "scenarioName": "Tab Navigation",
+      "type": "artists"
+    },
+    {
+      "name": "tab-revenue.png",
+      "path": "../screenshots/tab-revenue.png",
+      "size": 63976,
+      "time": "2025-04-25T11:41:12.340Z",
+      "scenarioName": "Tab Navigation",
+      "type": "revenue"
+    },
+    {
+      "name": "initial-load.png",
+      "path": "../screenshots/initial-load.png",
+      "size": 37520,
+      "time": "2025-04-25T11:41:09.127Z",
+      "scenarioName": "Unknown",
+      "type": "General"
+    },
+    {
+      "name": "responsive-mobile.png",
+      "path": "../screenshots/responsive-mobile.png",
+      "size": 26638,
+      "time": "2025-04-23T14:54:31.929Z",
+      "scenarioName": "Responsiveness",
+      "type": "mobile"
+    },
+    {
+      "name": "responsive-tablet-portrait.png",
+      "path": "../screenshots/responsive-tablet-portrait.png",
+      "size": 74737,
+      "time": "2025-04-23T14:54:30.812Z",
+      "scenarioName": "Responsiveness",
+      "type": "tablet portrait"
+    },
+    {
+      "name": "responsive-desktop-small.png",
+      "path": "../screenshots/responsive-desktop-small.png",
+      "size": 64522,
+      "time": "2025-04-23T14:54:29.628Z",
+      "scenarioName": "Responsiveness",
+      "type": "desktop small"
+    },
+    {
+      "name": "responsive-desktop-large.png",
+      "path": "../screenshots/responsive-desktop-large.png",
+      "size": 87808,
+      "time": "2025-04-23T14:54:28.476Z",
+      "scenarioName": "Responsiveness",
+      "type": "desktop large"
+    },
+    {
+      "name": "plot-6-after.png",
+      "path": "../screenshots/plot-6-after.png",
+      "size": 1450,
+      "time": "2025-04-23T14:54:25.200Z",
+      "scenarioName": "Plot Interactions",
+      "type": "After Interaction"
+    },
+    {
+      "name": "plot-6-before.png",
+      "path": "../screenshots/plot-6-before.png",
+      "size": 1450,
+      "time": "2025-04-23T14:54:22.528Z",
+      "scenarioName": "Plot Interactions",
+      "type": "Before Interaction"
+    },
+    {
+      "name": "plot-5-after.png",
+      "path": "../screenshots/plot-5-after.png",
+      "size": 1450,
+      "time": "2025-04-23T14:54:22.408Z",
+      "scenarioName": "Plot Interactions",
+      "type": "After Interaction"
+    },
+    {
+      "name": "plot-5-before.png",
+      "path": "../screenshots/plot-5-before.png",
+      "size": 1450,
+      "time": "2025-04-23T14:54:19.741Z",
+      "scenarioName": "Plot Interactions",
+      "type": "Before Interaction"
+    },
+    {
+      "name": "plot-4-after.png",
+      "path": "../screenshots/plot-4-after.png",
+      "size": 3488,
+      "time": "2025-04-23T14:54:19.630Z",
+      "scenarioName": "Plot Interactions",
+      "type": "After Interaction"
+    },
+    {
+      "name": "plot-4-before.png",
+      "path": "../screenshots/plot-4-before.png",
+      "size": 3488,
+      "time": "2025-04-23T14:54:16.942Z",
+      "scenarioName": "Plot Interactions",
+      "type": "Before Interaction"
+    },
+    {
+      "name": "plot-3-after.png",
+      "path": "../screenshots/plot-3-after.png",
+      "size": 3488,
+      "time": "2025-04-23T14:54:16.834Z",
+      "scenarioName": "Plot Interactions",
+      "type": "After Interaction"
+    },
+    {
+      "name": "plot-3-before.png",
+      "path": "../screenshots/plot-3-before.png",
+      "size": 3488,
+      "time": "2025-04-23T14:54:14.148Z",
+      "scenarioName": "Plot Interactions",
+      "type": "Before Interaction"
+    },
+    {
+      "name": "plot-2-after.png",
+      "path": "../screenshots/plot-2-after.png",
+      "size": 2346,
+      "time": "2025-04-23T14:54:14.052Z",
+      "scenarioName": "Plot Interactions",
+      "type": "After Interaction"
+    },
+    {
+      "name": "plot-2-before.png",
+      "path": "../screenshots/plot-2-before.png",
+      "size": 2346,
+      "time": "2025-04-23T14:54:11.420Z",
+      "scenarioName": "Plot Interactions",
+      "type": "Before Interaction"
+    }
+  ]
+}
